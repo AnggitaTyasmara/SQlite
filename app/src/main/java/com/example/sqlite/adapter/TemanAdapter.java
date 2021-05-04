@@ -117,8 +117,8 @@ public class TemanAdapter extends RecyclerView.Adapter<TemanAdapter.TemanViewHol
                                     break;
                                 case R.id.mnDelete:
                                     AlertDialog.Builder builder = new AlertDialog.Builder(context);
-                                    builder.setTitle("Hapus Data");
-                                    builder.setMessage("Yakin ingin di hapus?");
+                                    builder.setTitle("Hapus Kontak");
+                                    builder.setMessage("Yakin ingin menghapus kontak ini?");
                                     builder.setCancelable(true);
                                     builder.setPositiveButton("Ya",
                                             new DialogInterface.OnClickListener() {
